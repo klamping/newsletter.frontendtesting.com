@@ -1,0 +1,716 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+
+/*
+Theme Name: Multipurpose Landing Page Template - All in One
+Version: 1.0
+Author: Surjith SM
+Author URI: http://themeforest.net/user/surjithctly
+*/
+
+
+/******************  Table of Contents  *****************************/
+
+
+/*
+
+1. GLOBAL STYLES
+2. HEADER
+3. HERO IMAGE
+4. FEATURES
+5. TESTIMONIALS
+6. FAQ
+7. FOOTER
+8. CUSTOM MEDIA QUERIES
+
+If you having trouble in editing css. please send a mail to support@surjithctly.in -
+I will really help you
+
+*/
+
+
+/*========== 1. GLOBAL STYLES ==============*/
+
+body {
+    font-family: 'Montserrat', Arial, sans-serif;
+    background: #FFF;
+    color: #333;
+    font-weight: 400;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    color: #94a3a8;
+    line-height: 1.5;
+}
+
+strong,
+b {
+    font-weight: 600;
+}
+
+h1 h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #323e4f;
+}
+
+h1 {
+    font-size: 50px;
+    line-height: 1.5;
+    margin: 25px 0;
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: 700;
+    margin: 15px 0;
+}
+
+h3 {
+    font-size: 18px;
+    margin: 10px 0;
+    font-weight: 700;
+}
+
+h4 {
+    font-size: 22px;
+    margin: 10px 0;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+h5 {
+    font-size: 18px;
+    margin: 15px 0;
+}
+
+h6 {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+a {
+    color: #07A8CE;
+}
+
+a:hover,
+a:focus {
+    color: #52C6E1;
+    text-decoration: none;
+}
+
+.btn,
+.btn-lg,
+.input-lg {
+    border-radius: 3px;
+}
+
+.form-control {
+    border-radius: 3px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.input-lg {
+    height: 55px;
+}
+
+.btn-lg,
+.btn-group-lg > .btn {
+    padding: 13px 28px;
+}
+
+.form-control:focus {
+    border-color: #AFBDC8;
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.breath {
+    margin: 35px auto;
+}
+
+.highlight {
+    background: #f4f4f4;
+    margin-top: 40px;
+}
+
+.has-no-margin {
+    margin: 0;
+}
+
+.has-no-padding {
+    padding: 0;
+}
+
+.has-no-padding-horizontal {
+    padding-left: 0!important;
+    padding-right: 0!important;
+}
+
+.has-margin-vertical {
+    margin: 20px 0 30px;
+}
+
+.has-margin-top {
+    margin-top: 40px;
+}
+
+.has-margin-bottom {
+    margin-bottom: 40px;
+}
+
+.has-padding-top {
+    padding-top: 40px;
+}
+
+.has-padding-bottom {
+    padding-top: 40px;
+}
+
+
+/*========== 1 a. SUB PAGES ==============*/
+
+.subpage-head {
+    background-color: #f4f4f4;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    margin-bottom: 40px;
+}
+
+
+/*========== 2. HEADER ==============*/
+
+
+.btn-primary {
+    background-color: #2db6d8;
+    background-image: none;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+    background-color: #209ab8!important;
+    color: #FFF!important;
+}
+
+.btn-warning {
+    line-height: 1.8;
+    -webkit-box-shadow: 0 3px 0 rgb(177, 116, 29);
+    box-shadow: 0 3px 0 rgb(177, 116, 29);
+}
+
+.btn-warning:hover,
+.btn-warning:focus,
+.btn-warning:active {
+    -webkit-box-shadow: 0 3px 0 rgb(177, 116, 29);
+    box-shadow: 0 3px 0 rgb(177, 116, 29);
+}
+
+.subscribe {
+    padding: 45px 0;
+}
+
+.alertMsg {
+    font-size: 14px;
+    display: block;
+    padding: 5px 17px;
+    text-align: center;
+}
+
+.masthead .form-control {
+    border: 0;
+}
+
+.form-control::-moz-placeholder {
+    color: #848E93;
+}
+
+.form-control:-ms-input-placeholder {
+    color: #848E93;
+}
+
+.form-control::-webkit-input-placeholder {
+    color: #848E93;
+}
+
+/*sneak peak*/
+
+.sneak-peak {
+    padding: 40px 15px;
+    color: #FFF;
+    text-align: center;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, .1);
+    background-color: #323e4f;
+    font-size: 28px;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#323e4f+0,292f44+100 */
+    background: rgb(50,62,79); /* Old browsers */
+    background: -moz-linear-gradient(-45deg,  rgba(50,62,79,1) 0%, rgba(41,47,68,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg,  rgba(50,62,79,1) 0%,rgba(41,47,68,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg,  rgba(50,62,79,1) 0%,rgba(41,47,68,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#323e4f', endColorstr='#292f44',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+  -webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.19);
+  -moz-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.19);
+  box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.19);
+}
+
+.sneak-peak p {
+  margin: 0;
+  padding: 0;
+}
+
+.sneak-peak a {
+  color: #7FD6EB;
+  text-decoration: underline;
+}
+
+
+/*Header Contact Form*/
+
+.contact-form {
+    background: #4a5565;
+    border-radius: 3px;
+    padding: 15px;
+    text-align: left;
+    position: relative;
+}
+
+.mce-success-response {
+  margin-bottom: 15px;
+}
+
+/*========== 3. HERO IMAGE ==============*/
+
+.section-title {
+    margin-top: 60px;
+    margin-bottom: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.section-title h2 {
+    color: #384047;
+    margin-bottom: 10px;
+}
+
+.section-title h4 {
+    color: #94a3a8;
+    font-weight: normal;
+    font-size: 18px;
+    margin-top: 0;
+}
+
+.heroimg img,
+.clientlogo img {
+    max-width: 100%;
+}
+
+
+/*========== 4. FEATURES ==============*/
+
+.features {
+  margin: 0;
+}
+
+.features .section-title {
+  width: 80%;
+  margin: 40px auto;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+.thumbnail {
+  border: 0;
+  text-align: center;
+}
+
+.thumbnail .caption p {
+  color: #94a3a8;
+}
+
+
+
+/*========== 5. TESTIMONIALS ==============*/
+
+.testblock {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    background: #FFF;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-style: italic;
+    position: relative;
+    line-height: 28px;
+    font-size: 16px;
+}
+
+.testblock:after {
+    top: 100%;
+    left: 20%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(255, 255, 255, 0);
+    border-top-color: #ffffff;
+    border-width: 15px;
+    margin-left: -15px;
+}
+
+.clientblock {
+    margin-top: 40px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+blockquote {
+    margin: 0 0 10px;
+    font-size: 20px;
+    border-left: none;
+    text-align: center;
+    font-family: Georgia, serif;
+    font-style: italic;
+}
+
+.clientblock img {
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+}
+
+.clientblock p {
+    padding-top: 13px;
+}
+
+.clientblock p strong {
+    color: #384047;
+    font-size: 16px;
+}
+
+
+/* Animation */
+
+.testblock {
+    -moz-transition: all 0.6s ease;
+    -webkit-transition: all 0.6s ease;
+    -ms-transition: all 0.6s ease;
+    -o-transition: all 0.6s ease;
+    transition: all 0.6s ease;
+}
+
+.testblock:hover {
+    -moz-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+    z-index: 2;
+}
+
+
+/*==========8. FOOTER ==============*/
+
+
+.footerlinks {
+  border-top: 1px solid #B7BABD;
+  padding-top: 20px;
+}
+
+.footerlinks a {
+    text-align: center;
+    padding: 0 13px;
+    display: inline-block;
+}
+
+
+/*==========9. CUSTOM MEDIA QUERIES==============*/
+
+
+.signup-block {
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.25);
+    border-radius: 7px;
+    margin-bottom: 25px;
+}
+
+.form-group.last {
+    margin-bottom: 0;
+}
+
+/*
+ ------ LIGHT LAYOUT -------
+ */
+
+.light .masthead {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,f3f3f3+50,ededed+51,ffffff+100;White+Gloss+%232 */
+  background: rgb(255,255,255); /* Old browsers */
+  background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(243,243,243,1) 50%, rgba(237,237,237,1) 51%, rgba(255,255,255,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(243,243,243,1) 50%,rgba(237,237,237,1) 51%,rgba(255,255,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(243,243,243,1) 50%,rgba(237,237,237,1) 51%,rgba(255,255,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+
+    color: #293342;
+    padding-bottom: 0;
+    text-align: center;
+}
+
+.light .masthead .main-title {
+  margin-bottom: 0;
+}
+.light .masthead .sub-title {
+    color: #909090;
+    font-weight: normal;
+}
+
+.light .featues-single p {
+    color: #B7BABD;
+}
+
+.light .form-control {
+    border: 1px solid #CCC;
+}
+
+.light .contact-form {
+    background: #FFFFFF;
+    border: 1px solid #EDEDED;
+    margin-bottom: 20px;
+}
+
+.light .contact-form .mini-title {
+    color: #BABABA;
+}
+
+.light .masthead .featues-single h5,
+.light .masthead .features-lead {
+    color: #6C6C6C;
+}
+
+
+.newsletter-example {
+  overflow: hidden;
+  margin-bottom: 30px;
+  -webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.19);
+  -moz-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.19);
+  box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.19);
+  border-radius: 6px 6px 0 0;
+  border: 1px solid #bbb;
+}
+.newsletter-example .title-bar {
+  border-radius: 6px 6px 0 0;
+  font-size: 1.2rem;
+  text-shadow: none;
+  font-family: "Lucida Grande","Lucida Sans Unicode","Lucida Sans","Trebuchet MS",Tahoma,sans-serif;
+  position: relative;
+  z-index: 2;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.0, #ebebeb, color-stop(1.0, #d5d5d5)));
+  background: -webkit-linear-gradient(top, #ebebeb, #d5d5d5);
+  background: -moz-linear-gradient(top, #ebebeb, #d5d5d5);
+  background: -ms-linear-gradient(top, #ebebeb, #d5d5d5);
+  background: -o-linear-gradient(top, #ebebeb, #d5d5d5);
+  background: linear-gradient(top, #ebebeb, #d5d5d5);
+  color: #4d494d;
+  line-height: 24px;
+  text-align: center;
+  height: 24px;
+  border-top: 1px solid #f3f1f3;
+  border-bottom: 1px solid #b1aeb1;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  cursor: default;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 0 65px;
+}
+.newsletter-example .content {
+  height: 450px;
+  overflow-y: scroll;
+  background: #FAFAFA;
+}
+.newsletter-example img {
+  width: 100%;
+  max-width: 600px;
+}
+
+
+
+.buttons {
+  position: absolute;
+  left: 8px;
+  top: 5px;
+  line-height: 0;
+}
+
+.buttons .button {
+  color: transparent;
+  float: left;
+}
+
+.button {
+  font-size: 10px;
+  line-height: 8px;
+  text-align: center;
+  width: 12px;
+  height: 12px;
+  border: 1px solid;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 6px;
+}
+
+.menu-close {
+  background: #ff5c5c;
+  border-color: #e33e41;
+}
+.menu-close:active {
+  background: #c14645;
+  border-color: #b03537;
+  color: #820005;
+}
+.buttons:hover .button.menu-close {
+  color: #4c0102;
+}
+
+
+.menu-minimize {
+  background: #ffbd4c;
+  border-color: #e09e3e;
+}
+
+.menu-minimize:active {
+  background: #c08e38;
+  border: 1px solid #af7c33;
+}
+
+.buttons:hover .button.menu-minimize {
+  color: #5a2607;
+}
+
+
+.menu-zoom {
+  background: #00ca56;
+  border-color: #14ae46;
+}
+.menu-zoom:active {
+  background: #029740;
+  border-color: #128435;
+  color: #003107;
+}
+.buttons:hover .button.menu-zoom {
+  color: #006519;
+}
+
+.icon {
+  display: inline-block;
+  width: 5em;
+  height: 5em;
+  stroke-width: 0;
+  fill: #2DB8D8;
+}
+
+.icon-lifebuoy {
+  fill: #FF472F;
+}
+.icon-link {
+  fill: #00BC31;
+}
+
+
+
+/*MEDIA QUERIES*/
+
+@media (max-width: 991px) {
+    h1 {
+        font-size: 35px;
+        line-height: 50px;
+        margin: 15px 0;
+    }
+    h2 {
+        font-size: 35px;
+    }
+    .testimonials [class*="col-"]:not(:first-child) {
+        margin-top: 40px;
+    }
+    .breath {
+        margin: 30px auto;
+    }
+
+    .features .section-title {
+      width: 100%;
+      margin-bottom: 20px;
+      padding-bottom: 10px;
+      font-size: 26px;
+      text-align: left;
+    }
+
+    .features .icon {
+      float: left;
+      margin-right: 15px;
+      margin-bottom: 20px;
+    }
+
+    .features .caption {
+      padding: 0;
+    }
+    .features .thumbnail {
+      text-align: left;
+      padding: 0;
+      clear: both;
+    }
+    .features .thumbnail h3 {
+      margin: 0;
+    }
+}
+
+@media (max-width: 767px) {
+    h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .subscribe [class*="col-"]:not(:first-child) {
+        margin-top: 30px;
+    }
+
+    .features .section-title,
+    .light .masthead,
+    .sneak-peak {
+      text-align: left;
+    }
+
+    .light .masthead {
+      text-align: left;
+      margin-top: 20px;
+    }
+
+    .newsletter-example {
+      border-radius: 6px;
+      margin: 0 15px;
+    }
+
+    .sneak-peak {
+      font-size: 22px;
+    }
+
+    .features .section-title {
+      font-size: 18px;
+    }
+}
