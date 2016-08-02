@@ -539,7 +539,6 @@ blockquote {
 }
 .newsletter-example .content {
   height: 450px;
-  overflow-y: scroll;
   background: #FAFAFA;
 }
 .newsletter-example img {
